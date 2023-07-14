@@ -1,0 +1,355 @@
+{
+    "_inherit": true,
+    "_cards": true,
+    "_variables": {
+        "@TitleSize": "15px",
+        "@SubtitleSize": "13px",
+        "@TextSize": "11px",
+        "@FooterSize": "10px",
+        "@TitleColor": "#2A7288",
+        "@SubtitleColor": "#4A4D4E",
+        "@TextColor": "#4A4D4E",
+        "@FooterColor": "#4A4D4E",
+        "@BackgroundColor": "#ffffff",
+        "@AxisMajorColor": "#eeeeee",
+        "@AxisMinorColor": "#eeeeee",
+        "@OutOfRangeColor": "#999999",
+        "@TreeMapHeaderTextColor": "#ffffff",
+        "@TreeMapHeaderBackgroundColor": "#DCE6E8",
+        "@TableTextSize": "11px"
+    },
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "theme-style"
+        }
+    ],
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "fontFamily": "Arial, Source Sans Pro, sans-serif",
+    "backgroundColor": "@BackgroundColor",
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "#ffffff"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize"
+                }
+            },
+            "line": {
+                "major": {
+                    "color": "#eeeeee"
+                },
+                "minor": {
+                    "color": "#eeeeee"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "@OutOfRangeColor"
+                },
+                "major": {
+                    "color": "@AxisMajorColor"
+                },
+                "minor": {
+                    "color": "@AxisMinorColor"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": " @TextSize"
+                }
+            },
+            "outOfBounds": {
+                "color": "@AxisMinorColor",
+                "backgroundColor": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize"
+            }
+        },
+        "filterpane": {
+            "backgroundColor": "transparent"
+        },
+        "treemap": {
+            "branch": {
+                "backgroundColor": "@TreeMapHeaderBackgroundColor"
+            }
+        }
+    },
+    "dataColors": {
+        "primaryColor": "#2A7288",
+        "othersColor": "#8E9398",
+        "errorColor": "#ff4444",
+        "nullColor": "#d2d2d2"
+    },
+    "palettes": {
+        "data": [
+            {
+                "name": "Staubli divisional colors",
+                "propertyValue": "staublidivcolorsvs2",
+                "type": "row",
+                "scale": [
+                    "#C05034",
+                    "#615187",
+                    "#CB9041",
+                    "#6B8722",
+                    "#2A7288",
+                    "#CC6677",
+                    "#67B7D0",
+                    "#AA4466",
+                    "#DDCC77"
+                ]
+            },
+            {
+                "name": "Staubli multi-color shades 10",
+                "propertyValue": "staublimulticolrs10v1",
+                "type": "row",
+                "scale": [
+                    "#2A7288",
+                    "#8E9398",
+                    "#67B7D0",
+                    "#6B8722",
+                    "#CB9041",
+                    "#DDCC77",
+                    "#C05034",
+                    "#CC6677",
+                    "#AA4466",
+                    "#615187"
+                ]
+            },
+            {
+                "name": "Staubli multi-color shades 6",
+                "propertyValue": "staublimulticolrs6v1",
+                "type": "row",
+                "scale": [
+                    "#2A7288",
+                    "#8E9398",
+                    "#6B8722",
+                    "#CB9041",
+                    "#C05034",
+                    "#615187"
+                ]
+            },
+            {
+                "name": "Staubli pacific-blue shades",
+                "propertyValue": "pacific-blue-colors",
+                "type": "row",
+                "scale": [
+                    "#153944",
+                    "#1F5566",
+                    "#2A7288",
+                    "#67B7D0",
+                    "#9ACFE0",
+                    "#CCE7EF"
+                ]
+            },
+            {
+                "name": "Staubli PY-BUD-FC-ACT colors",
+                "propertyValue": "staubliactbudfc",
+                "type": "row",
+                "scale": [
+                    "#8E9398",
+                    "#464A4D",
+                    "#67B7D0",
+                    "#2A7288"
+                ]
+            },
+            {
+                "name": "Staubli PY-BUD-ACT colors",
+                "propertyValue": "staubliactbudPY",
+                "type": "row",
+                "scale": [
+                    "#8E9398",
+                    "#464A4D",
+                    "#2A7288"
+                ]
+            },
+            {
+                "name": "Staubli 3 KPI colors",
+                "propertyValue": "staublithreeKPIscolors",
+                "type": "row",
+                "scale": [
+                    "#2A7288",
+                    "#464A4D",
+                    "#67B7D0",
+                    "#8E9398"
+                ]
+            },
+            {
+                "name": "Staubli gray shades",
+                "propertyValue": "st-colors",
+                "type": "row",
+                "scale": [
+                    "#535659",
+                    "#777B80",
+                    "#8E9398",
+                    "#9AA0A6",
+                    "#D5DDE6",
+                    "#E5E5E5"
+                ]
+            },
+            {
+                "name": "Staubli lime shades",
+                "propertyValue": "Lime-colors",
+                "type": "row",
+                "scale": [
+                    "#6B8722",
+                    "RGBA(107,135,34,0.84)",
+                    "RGBA(107,135,34,0.68)",
+                    "RGBA(107,135,34,0.52)",
+                    "RGBA(107,135,34,0.36)",
+                    "RGBA(107,135,34,0.2)"
+                ]
+            },
+            {
+                "name": "Staubli grape shades",
+                "propertyValue": "Grape-colors",
+                "type": "row",
+                "scale": [
+                    "#615187",
+                    "RGBA(97,81,135,0.84)",
+                    "RGBA(97,81,135,0.68)",
+                    "RGBA(97,81,135,0.52)",
+                    "RGBA(97,81,135,0.36)",
+                    "RGBA(97,81,135,0.2)"
+                ]
+            },
+            {
+                "name": "Staubli wine shades",
+                "propertyValue": "wine-colors",
+                "type": "row",
+                "scale": [
+                    "#C05034",
+                    "RGBA(192,80,52,0.84)",
+                    "RGBA(192,80,52,0.68)",
+                    "RGBA(192,80,52,0.52)",
+                    "RGBA(192,80,52,0.36)",
+                    "RGBA(192,80,52,0.20)"
+                ]
+            },
+            {
+                "name": "Staubli sand shades",
+                "propertyValue": "Sand-colors",
+                "type": "row",
+                "scale": [
+                    "#CB9041",
+                    "RGBA(203,144,65,0.84)",
+                    "RGBA(203,144,65,0.68)",
+                    "RGBA(203,144,65,0.52)",
+                    "RGBA(203,144,65,0.36)",
+                    "RGBA(203,144,65,0.20)"
+                ]
+            }
+        ],
+        "ui": [
+            {
+                "name": "Palette",
+                "colors": [
+                    "#8E9398",
+                    "#4A4D4E",
+                    "#FFFFFF",
+                    "#2A7288",
+                    "#6B8722",
+                    "#615187",
+                    "#C05034",
+                    "#CB9041",
+                    "#153944",
+                    "#1F5566",
+                    "#67B7D0",
+                    "#9ACFE0",
+                    "#CCE7EF"
+                ]
+            }
+        ]
+    },
+    "scales": [
+        {
+            "name": "Pacific blue sequential gradient",
+            "type": "gradient",
+            "propertyValue": "sgSTWpacificblue",
+            "scale": [
+                "#1F5566",
+                "#CCE7EF"
+            ]
+        },
+        {
+            "name": "Pacific blue sequential classes",
+            "type": "class",
+            "propertyValue": "sgSTWpacificblueClass",
+            "scale": [
+                "#1F5566",
+                "#CCE7EF"
+            ]
+        },
+        {
+            "name": "Wine colors sequential gradient",
+            "type": "gradient",
+            "propertyValue": "sgSTWine1",
+            "scale": [
+                "#C05034",
+                "#FFA791"
+            ]
+        },
+        {
+            "name": "Wine colors sequential classes",
+            "type": "class",
+            "propertyValue": "sgSTWine1class",
+            "scale": [
+                "#C05034",
+                "#FFA791"
+            ]
+        },
+        {
+            "name": "Diverging gradient grape to wine colors",
+            "propertyValue": "dgGrapeWine1",
+            "type": "gradient",
+            "scale": [
+                "#1F5566",
+                "#C05034"
+            ]
+        }
+    ]
+}
