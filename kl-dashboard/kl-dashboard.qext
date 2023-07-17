@@ -1,14 +1,14 @@
 {
-	"type": "mashup",
-	"name": "kl-dashboard",
-	"description": "Basic responsive mashup template",
-	"version": "1.0.0",
-	"author": "informatec",
-	"homepage": "pages/home.html",
-	"keywords": "qlik-sense, visualization, mashup",
-	"license": "",
-	"repository": "",
-	"dependencies": {
-		"qlik-sense": ">=3.0.x"
-	}
+    "type": "mashup",
+    "name": "kl-dashboard",
+    "description": "Basic responsive mashup template",
+    "version": "1.0.0",
+    "author": "informatec",
+    "homepage": "pages/home.html",
+    "keywords": "qlik-sense, visualization, mashup",
+    "license": "",
+    "repository": "",
+    "dependencies": {
+        "qlik-sense": ">=3.0.x"
+    }
 }

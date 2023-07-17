@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  /*  background-color: #24252A;*/
+}
+
+:root {
+	--r: 255;
+	--g: 0;
+	--b: 0;
+	--text-color: rgb(0,0,0);
+}
+
+html {
+  box-sizing: border-box;
+}
+ 
+.logo
+{
+    cursor: pointer;
+}
+
+/* Qlik Objects Styling*/
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 45px 45px 0;
+	background: red;
+}
+
+.qvfilterpane {
+	min-height: 800px;
+	min-width: 150px;
+	margin: 45px 0 0 45px;
+	background: red;
+}
+
+.qvplaceholder, .qvobject {
+	flex: 1 1 auto;
+	height: 800px;
+	min-width: 400px;
+	margin: 45px 0 0 45px;
+}
+
+.qvbutton {
+	flex: 1 1 auto;
+	height: 100px;
+	width: 100px;
+	margin: 45px 0 0 45px;
+}
+
+#popup {
+	background-color: #c3534b;
+	color: #000;
+	position: fixed;
+	max-width: 250px;
+	padding: 10px;
+	margin: 10px;
+	bottom: 0;
+	right: 0;
+	display: none;
+	border-radius: 5px;
+	z-index: 6;
+	font-family: sans-serif;
+}
+
+.close {
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+	float: right;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .2;
+	position: absolute;
+	right: 9px;
+	top: 7px;
+}
+
+.close:hover {
+	opacity: .5;
+}
+
+#popupText {
+	margin-right: 23px;
+}
