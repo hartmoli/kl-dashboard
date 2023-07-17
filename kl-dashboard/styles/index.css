@@ -155,3 +155,25 @@ article.qv-object.qvt-visualization.qv-layout-spark.qv-object-qlik-variable-inpu
 .sn-kpi-left, .left {
     padding-left: 10px;
 }
+
+/* change height for iframe card home - page */
+iframe.card-img-top{
+	height: 350px !important;
+}
+
+.navbar {
+	height: 5vh; /* Set your desired height */
+	border-bottom: 1px solid #8e93986b;
+}
+
+.div.single-object #content{
+	padding: 0px 5px 5px !important;
+}
+
+.embed-responsive.ratio.ratio-16x9{
+	height: 95vh;
+}
+
+.album.py-5.bg-light {
+    height: 90vh;
+}
