@@ -161,19 +161,29 @@ iframe.card-img-top{
 	height: 350px !important;
 }
 
+/* set navbar height + add border */
 .navbar {
 	height: 5vh; /* Set your desired height */
 	border-bottom: 1px solid #8e93986b;
 }
 
+/* try to influence the qlik iframe sheet properties - not working at the moment */
 .div.single-object #content{
 	padding: 0px 5px 5px !important;
+	margin: -35px -5px -5px !important;
 }
 
+/* add height of the base div body element */
 .embed-responsive.ratio.ratio-16x9{
 	height: 95vh;
 }
 
+/* set height of the home panel */
 .album.py-5.bg-light {
     height: 90vh;
+}
+
+/*add margin to the home panel text */
+.jumbotron-heading{
+	margin-top: 1rem;
 }
