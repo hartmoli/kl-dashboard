@@ -27,7 +27,9 @@ class Header extends HTMLElement {
               <ul class="dropdown-menu dropdown-menu-light">
                   <li><a class="dropdown-item" href="revenuegrowth.html">Revenue Growth</a></li>
                   <li><a class="dropdown-item" href="roic.html">ROIC</a></li>
+                  <!--- FCF to be hide for now
                   <li><a class="dropdown-item" href="nopagefound.html">FCF</a></li>
+                  -->
                 </ul>
             </li>
 
@@ -35,7 +37,9 @@ class Header extends HTMLElement {
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Markets</a>
               <ul class="dropdown-menu dropdown-menu-light">
+                  <!--- RMS to be hide for now
                   <li><a class="dropdown-item" href="nopagefound.html">Relative Market Share</a></li>
+                  -->
                   <li><a class="dropdown-item" href="nps.html">NPS</a></li>
                 </ul>
             </li>
@@ -49,7 +53,7 @@ class Header extends HTMLElement {
                 </ul>
             </li>
 
-            <!-- Organization -->
+            <!-- Organization - to be hide for now
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Organisation</a>
               <ul class="dropdown-menu dropdown-menu-light">
@@ -57,6 +61,7 @@ class Header extends HTMLElement {
                   <li><a class="dropdown-item" href="nopagefound.html">Employee Engagement</a></li>                  
                 </ul>
             </li>
+            -->
 
             <!-- Supply Chain -->                                            		  
             <li class="nav-item dropdown">
